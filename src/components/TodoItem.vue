@@ -8,7 +8,7 @@
               <span :class="{completed: todo.completed}" @click="toggleTodoStatus">{{ todo.title }}</span>
             </div>
             <div>
-              <button class="edit" :class="{completed: todo.completed}" @click="toggleTodoStatus()">編輯</button>
+              <button class="edit"  @click="toggleTodoStatus()">編輯</button>
               <button class="delete" @click="deleteTodo()">刪除</button>  <!--編輯也有刪除線！-->
             </div>
           </div>
