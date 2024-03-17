@@ -9,7 +9,7 @@
             </div>
             <div>
               <button class="edit"  @click="toggleTodoStatus()">編輯</button>
-              <button class="delete" @click="deleteTodo()">刪除</button>  <!--編輯也有刪除線！-->
+              <button class="delete" @click="deleteTodo()">刪除</button>  
             </div>
           </div>
         </li>
